@@ -459,8 +459,8 @@ namespace move
     {
         auto init( user_cmd * cmd , csplayer * local )
         {
-   //nope
-        }
+			//nope
+		}
     }
 
     namespace fake_lag_value

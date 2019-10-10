@@ -172,7 +172,7 @@ namespace globals
             aim_punch = 0x302C , tick_base = 0x342C , velocity = 0x114 , eye_angle = 0xB32C ,
             simulation_time = 0x268 , net_chan = 0x9C , current_ammo_m1 = 0x3244, move_type = 0x25C,
             item_def_index = 0x2FAA , next_fire = 0x3218 , trow_time = 0x3394, pin_pulled = 0x3392,
-            current_ammo_m2 = 0x3248 , lower_body_yaw = 0x3A74 , anim_state = 0x3900;
+            current_ammo_m2 = 0x3248 , lower_body_yaw = 0x3A78, anim_state = 0x3900;
 
         uint32_t * smoke_cout = 0;
     }

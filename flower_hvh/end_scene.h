@@ -164,7 +164,7 @@ namespace imgui_extras
         }
 
         ImGui::Text( "#important" );
-        ImGui::Text( "this public release of my old base (dissedia) " );
+        ImGui::Text( "this is a public release of my old base (dissedia) " );
         ImGui::Text( "thus, it has bugs, crashes & unfinished stuff" );
         ImGui::Text( "#version" );
         ImGui::Text( "your 1337 version here" );
