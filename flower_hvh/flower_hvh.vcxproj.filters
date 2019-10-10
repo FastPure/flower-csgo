@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="flower hook">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="flower hook\headers">
+      <UniqueIdentifier>{db56f750-1d42-405b-b77f-ecdc53b64a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\game hooks">
+      <UniqueIdentifier>{3817b428-9a4d-48e2-9f41-51728baf5b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\game hooks\functions">
+      <UniqueIdentifier>{77b5bf4b-7219-4c7e-8e52-421de64134fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\hook methods">
+      <UniqueIdentifier>{64aad49a-02e6-4dcd-a5bb-9e9673429ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\sdk">
+      <UniqueIdentifier>{b7883e16-bbad-4df6-82f0-877a4670028c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\sdk\valve_sdk">
+      <UniqueIdentifier>{b6e7cbcc-50e3-4ac1-9515-7f77d384e1b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\sdk\valve_sdk\client">
+      <UniqueIdentifier>{60a38f09-8366-4c3c-8bee-b260206a2eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\sdk\valve_sdk\drawing">
+      <UniqueIdentifier>{4ac686a9-a67c-4d1f-bc31-45a5103ad04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\sdk\valve_sdk\engine">
+      <UniqueIdentifier>{4d1f4166-5aa1-426f-9f85-4d78e4215d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\sdk\flower_sdk">
+      <UniqueIdentifier>{629674a7-5e1c-4695-8cbc-d8a28b347a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\sdk\flower_sdk\configs">
+      <UniqueIdentifier>{76d76fc1-af65-40d8-bfa9-797114a92a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\sdk\flower_sdk\player">
+      <UniqueIdentifier>{50190875-7f30-40ce-bcb9-4e91a7b0b430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\game hooks\functions\drawing">
+      <UniqueIdentifier>{c0d41b86-8dce-4b28-89bb-d48b2c5196c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\game hooks\drawing hooks">
+      <UniqueIdentifier>{e593f2df-e748-4358-8da0-032f428ef074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\sdk\imgui_sdk">
+      <UniqueIdentifier>{e3bf751d-d355-4349-9f16-3644e6c480b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\game hooks\functions\events">
+      <UniqueIdentifier>{c9870e04-0e2f-4a96-9187-24b948a31782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\game hooks\movement hooks">
+      <UniqueIdentifier>{221d7fe9-b982-4091-9e7d-fb4778254a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flower hook\headers\game hooks\functions\movement">
+      <UniqueIdentifier>{ac0bd879-a420-4a0c-90c1-3f9a326d1a7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>flower hook</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers.h">
+      <Filter>flower hook</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>flower hook\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="initialize.h">
+      <Filter>flower hook\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vmt.h">
+      <Filter>flower hook\headers\hook methods</Filter>
+    </ClInclude>
+    <ClInclude Include="base_client.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_list.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="panel.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="surface.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_overlay.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="flower_sdk.h">
+      <Filter>flower hook\headers\sdk\flower_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="configs.h">
+      <Filter>flower hook\headers\sdk\flower_sdk\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="csplayer.h">
+      <Filter>flower hook\headers\sdk\flower_sdk\player</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>flower hook\headers\sdk\flower_sdk\player</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>flower hook\headers\game hooks\functions\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing.h">
+      <Filter>flower hook\headers\game hooks\functions\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="paint_traverse.h">
+      <Filter>flower hook\headers\game hooks\drawing hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="reset.h">
+      <Filter>flower hook\headers\game hooks\drawing hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="end_scene.h">
+      <Filter>flower hook\headers\game hooks\drawing hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>flower hook\headers\sdk\imgui_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="lock_cursor.h">
+      <Filter>flower hook\headers\game hooks\drawing hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="client_class.h">
+      <Filter>flower hook\headers\sdk\flower_sdk\player</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon_base.h">
+      <Filter>flower hook\headers\sdk\flower_sdk\player</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="post_screen_effects.h">
+      <Filter>flower hook\headers\game hooks\drawing hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="glow_manager.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="glow.h">
+      <Filter>flower hook\headers\game hooks\functions\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="chams.h">
+      <Filter>flower hook\headers\game hooks\functions\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="others.h">
+      <Filter>flower hook\headers\game hooks\functions\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="convar.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_beam.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="movement.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="game_event.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h">
+      <Filter>flower hook\headers\game hooks\functions\events</Filter>
+    </ClInclude>
+    <ClInclude Include="global_var.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="user_cmd.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="override_view.h">
+      <Filter>flower hook\headers\game hooks\drawing hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="view_setup.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="create_move.h">
+      <Filter>flower hook\headers\game hooks\movement hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="aim.h">
+      <Filter>flower hook\headers\game hooks\functions\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="fixes.h">
+      <Filter>flower hook\headers\game hooks\functions\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="send_datagram.h">
+      <Filter>flower hook\headers\game hooks\drawing hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="netchannel.h">
+      <Filter>flower hook\headers\sdk\valve_sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="frame_stage_notify.h">
+      <Filter>flower hook\headers\game hooks\drawing hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>flower hook\headers\sdk\flower_sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
