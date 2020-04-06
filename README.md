@@ -1,7 +1,7 @@
 # flower
 
 # Decided to make it public since it doesn't have anything special. It was a project that i wrote up about 1 year or so ago.
-UD, but im not sure about VAC Auth erros - at that time i wasn't clamping angles in AA if i remember correct.
+UD, but im not sure about VAC Auth erros - at that time i wasn't clamping angles in AA if i remember correcty.
 
 -- btw "hvh" in the name is a meme, should never be used for it in the current state, just take a look and maybe paste something from.
 
